@@ -6,6 +6,7 @@ import chips from "../images/sides/chips.png";
 import drink from "../images/sides/drink.png";
 import taco from "../images/sides/taco.png";
 import tortilla from "../images/sides/tortilla.png";
+import Side from "./Side";
 
 function SideForm(props) {
   return (
@@ -142,3 +143,5 @@ function SideForm(props) {
     </>
   );
 }
+
+export default SideForm
